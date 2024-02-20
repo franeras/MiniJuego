@@ -43,6 +43,7 @@
             StartPosition = FormStartPosition.CenterParent;
             Text = "VegaZelda";
             Load += Level1_Load;
+            KeyPress += Level1_KeyPress;
             ResumeLayout(false);
         }
 
